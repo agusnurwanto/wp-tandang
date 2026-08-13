@@ -1,19 +1,19 @@
 # WP-Tandang
 
-**WP-Tandang** adalah plugin WordPress yang dikembangkan sebagai **core business plugin** untuk ekosistem **Tandang.id**, sebuah platform *crowd-sourced service* dan *sharing economy* yang mempertemukan kebutuhan masyarakat dengan talenta berdasarkan keterampilan, portofolio, ketersediaan, reputasi, dan riwayat pekerjaan.
+**WP-Tandang** adalah plugin WordPress yang dikembangkan sebagai **core business plugin** untuk ekosistem **tandang.baktinegara.co.id**, sebuah platform *crowd-sourced service* dan *sharing economy* yang mempertemukan kebutuhan masyarakat dengan talenta berdasarkan keterampilan, portofolio, ketersediaan, reputasi, dan riwayat pekerjaan.
 
-Plugin ini dirancang untuk berjalan di atas **WordPress** dan terintegrasi dengan **Ultimate Member** sebagai lapisan manajemen identitas dan pengguna. WP-Tandang bertanggung jawab terhadap logika bisnis utama Tandang.id dan menyediakan fondasi API untuk pengembangan Web, PWA, Mobile SPA, serta integrasi eksternal.
+Plugin ini dirancang untuk berjalan di atas **WordPress** dan terintegrasi dengan **Ultimate Member** sebagai lapisan manajemen identitas dan pengguna. WP-Tandang bertanggung jawab terhadap logika bisnis utama tandang.baktinegara.co.id dan menyediakan fondasi API untuk pengembangan Web, PWA, Mobile SPA, serta integrasi eksternal.
 
 ---
 
 ## 1. Latar Belakang
 
-Tandang.id dirancang untuk menjawab dua permasalahan utama:
+tandang.baktinegara.co.id dirancang untuk menjawab dua permasalahan utama:
 
 1. Masyarakat membutuhkan layanan bantuan yang fleksibel, cepat, lokal, dan dapat dipercaya.
 2. Banyak individu memiliki *idle time*, keterampilan, dan kapasitas yang belum termonetisasi secara optimal.
 
-Tandang.id tidak hanya diposisikan sebagai marketplace jasa. Platform ini dirancang sebagai ekosistem yang memungkinkan seseorang:
+tandang.baktinegara.co.id tidak hanya diposisikan sebagai marketplace jasa. Platform ini dirancang sebagai ekosistem yang memungkinkan seseorang:
 
 - menawarkan keterampilan;
 - membangun portofolio;
@@ -23,7 +23,7 @@ Tandang.id tidak hanya diposisikan sebagai marketplace jasa. Platform ini diranc
 - memperoleh peluang pekerjaan;
 - dan berpartisipasi dalam komunitas.
 
-Dengan demikian, konsep utama Tandang.id adalah:
+Dengan demikian, konsep utama tandang.baktinegara.co.id adalah:
 
 > **Service → Experience → Proof of Work → Reputation → Opportunity → Skill Development**
 
@@ -31,14 +31,14 @@ WP-Tandang menjadi komponen perangkat lunak yang mengimplementasikan siklus ters
 
 ---
 
-## 2. Posisi WP-Tandang dalam Arsitektur Tandang.id
+## 2. Posisi WP-Tandang dalam Arsitektur tandang.baktinegara.co.id
 
-WP-Tandang merupakan **domain-specific application plugin** yang menjadi pusat logika bisnis Tandang.id.
+WP-Tandang merupakan **domain-specific application plugin** yang menjadi pusat logika bisnis tandang.baktinegara.co.id.
 
 Arsitektur utama:
 
 ```text
-                    TANDANG.ID
+                    tandang.baktinegara.co.id
                         │
               ┌─────────▼─────────┐
               │ Presentation Layer │
@@ -89,11 +89,11 @@ Ultimate Member digunakan sebagai **identity and user management layer**, antara
 - user directory;
 - dan fungsi manajemen identitas lainnya.
 
-WP-Tandang tidak mengambil alih tanggung jawab utama Ultimate Member, tetapi memanfaatkan identitas pengguna WordPress/Ultimate Member untuk menjalankan logika bisnis Tandang.id.
+WP-Tandang tidak mengambil alih tanggung jawab utama Ultimate Member, tetapi memanfaatkan identitas pengguna WordPress/Ultimate Member untuk menjalankan logika bisnis tandang.baktinegara.co.id.
 
 ### WP-Tandang
 
-WP-Tandang bertanggung jawab terhadap domain bisnis Tandang.id, termasuk:
+WP-Tandang bertanggung jawab terhadap domain bisnis tandang.baktinegara.co.id, termasuk:
 
 - Talent;
 - Skill;
@@ -128,7 +128,7 @@ Data dari WP-Tandang dapat dikonsumsi oleh:
 
 WP-Tandang dikembangkan dengan tujuan:
 
-1. Menjadi pusat logika bisnis Tandang.id.
+1. Menjadi pusat logika bisnis tandang.baktinegara.co.id.
 2. Menghubungkan customer dengan talent.
 3. Mengelola layanan dan permintaan layanan.
 4. Membangun reputasi talenta melalui Proof of Work.
@@ -137,13 +137,13 @@ WP-Tandang dikembangkan dengan tujuan:
 7. Mendukung social listening yang legal dan etis.
 8. Menyediakan REST API untuk Web, PWA, dan Mobile SPA.
 9. Menjaga pemisahan antara user management dan business logic.
-10. Menjadi fondasi pengembangan ekosistem Tandang.id dalam jangka panjang.
+10. Menjadi fondasi pengembangan ekosistem tandang.baktinegara.co.id dalam jangka panjang.
 
 ---
 
 ## 4. Konsep Bisnis
 
-Tandang.id menggunakan pendekatan **sharing economy** dan **crowd-sourced service**.
+tandang.baktinegara.co.id menggunakan pendekatan **sharing economy** dan **crowd-sourced service**.
 
 ### Customer
 
@@ -179,7 +179,7 @@ Talent tidak hanya dinilai berdasarkan transaksi, tetapi juga berdasarkan:
 
 ## 5. Proof of Work
 
-**Proof of Work** merupakan salah satu konsep inti Tandang.id.
+**Proof of Work** merupakan salah satu konsep inti tandang.baktinegara.co.id.
 
 Talenta dapat membangun kredibilitas bahkan sebelum memperoleh banyak pesanan.
 
@@ -275,7 +275,7 @@ Data hasil pekerjaan dapat digunakan untuk memperkaya reputasi dan riwayat talen
 
 ## 8. Social Listening
 
-Tandang.id dapat menggunakan mekanisme **social listening** untuk mengidentifikasi kebutuhan masyarakat dari sumber digital yang tersedia secara legal.
+tandang.baktinegara.co.id dapat menggunakan mekanisme **social listening** untuk mengidentifikasi kebutuhan masyarakat dari sumber digital yang tersedia secara legal.
 
 Contoh:
 
@@ -325,13 +325,13 @@ Social listening WP-Tandang harus memperhatikan:
 
 WP-Tandang **tidak dirancang untuk melakukan scraping secara bebas atau mengabaikan Terms of Service platform lain**.
 
-Chrome Extension atau mekanisme client-side dapat digunakan untuk membantu pengguna/operator mengirimkan informasi kebutuhan ke Tandang.id melalui mekanisme yang sesuai.
+Chrome Extension atau mekanisme client-side dapat digunakan untuk membantu pengguna/operator mengirimkan informasi kebutuhan ke tandang.baktinegara.co.id melalui mekanisme yang sesuai.
 
 ---
 
 ## 9. Community Support
 
-Tandang.id tidak hanya berorientasi pada transaksi.
+tandang.baktinegara.co.id tidak hanya berorientasi pada transaksi.
 
 Platform dapat menyediakan ruang komunitas untuk:
 
@@ -429,13 +429,13 @@ REST API memungkinkan satu backend digunakan oleh beberapa client:
          Web
 ```
 
-Hal ini menjadi fondasi agar Tandang.id dapat berkembang tanpa harus mengganti backend ketika kebutuhan frontend berubah.
+Hal ini menjadi fondasi agar tandang.baktinegara.co.id dapat berkembang tanpa harus mengganti backend ketika kebutuhan frontend berubah.
 
 ---
 
 ## 12. Progressive Web App
 
-Tandang.id dirancang sebagai **Progressive Web App (PWA)**.
+tandang.baktinegara.co.id dirancang sebagai **Progressive Web App (PWA)**.
 
 Target kemampuan PWA meliputi:
 
@@ -448,13 +448,13 @@ Target kemampuan PWA meliputi:
 - offline capability terbatas;
 - dan pengalaman mobile yang menyerupai aplikasi.
 
-PWA memungkinkan Tandang.id memberikan pengalaman seperti aplikasi mobile tanpa harus langsung membangun aplikasi Android dan iOS secara terpisah.
+PWA memungkinkan tandang.baktinegara.co.id memberikan pengalaman seperti aplikasi mobile tanpa harus langsung membangun aplikasi Android dan iOS secara terpisah.
 
 ---
 
 ## 13. Mobile SPA
 
-Pengembangan SPA pada Tandang.id menggunakan pendekatan **hybrid architecture**.
+Pengembangan SPA pada tandang.baktinegara.co.id menggunakan pendekatan **hybrid architecture**.
 
 Website desktop tidak harus sepenuhnya diubah menjadi SPA.
 
@@ -554,7 +554,7 @@ Seluruh data dan endpoint harus memperhatikan:
 
 ## 15. Smart Society
 
-Tandang.id mendukung konsep **Smart Society** melalui:
+tandang.baktinegara.co.id mendukung konsep **Smart Society** melalui:
 
 - peningkatan literasi digital;
 - digitalisasi keterampilan;
@@ -570,7 +570,7 @@ Teknologi tidak hanya digunakan untuk transaksi, tetapi sebagai sarana meningkat
 
 ## 16. Smart Economy
 
-Tandang.id juga mendukung **Smart Economy** dengan mengubah:
+tandang.baktinegara.co.id juga mendukung **Smart Economy** dengan mengubah:
 
 ```text
 Idle Time
@@ -660,11 +660,11 @@ Pengembangan WP-Tandang dapat dilakukan secara bertahap.
 
 ## 18. Kesimpulan
 
-WP-Tandang merupakan fondasi perangkat lunak untuk membangun Tandang.id sebagai ekosistem **sharing economy**, **crowd-sourced service**, dan **digital talent development** berbasis WordPress.
+WP-Tandang merupakan fondasi perangkat lunak untuk membangun tandang.baktinegara.co.id sebagai ekosistem **sharing economy**, **crowd-sourced service**, dan **digital talent development** berbasis WordPress.
 
 WordPress berperan sebagai platform aplikasi, Ultimate Member berperan sebagai lapisan manajemen identitas dan pengguna, sedangkan WP-Tandang menjadi pusat logika bisnis yang mengelola layanan, talenta, portofolio, Proof of Work, riwayat kompetensi, pekerjaan, reputasi, matching, lead, dan integrasi sosial.
 
-Arsitektur berbasis REST API memungkinkan Tandang.id berkembang secara bertahap dari website WordPress menjadi PWA dan kemudian Mobile SPA tanpa harus mengganti backend utama.
+Arsitektur berbasis REST API memungkinkan tandang.baktinegara.co.id berkembang secara bertahap dari website WordPress menjadi PWA dan kemudian Mobile SPA tanpa harus mengganti backend utama.
 
 Tujuan akhir WP-Tandang bukan sekadar membuat marketplace jasa, tetapi membangun **digital ecosystem for local talent and community services**.
 
@@ -678,7 +678,7 @@ Dengan demikian, WP-Tandang diharapkan menjadi fondasi teknologi yang mampu meng
 
 ## 19. Tim Pengembang
 
-**Tandang.id Research and Development Team**
+**tandang.baktinegara.co.id Research and Development Team**
 
 - Agus Nurwanto
 - Emir
@@ -691,7 +691,7 @@ Dengan demikian, WP-Tandang diharapkan menjadi fondasi teknologi yang mampu meng
 
 **Status:** Active Development
 
-**Project:** Tandang.id
+**Project:** tandang.baktinegara.co.id
 
 **Core Plugin:** WP-Tandang
 
