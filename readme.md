@@ -8,6 +8,8 @@ Plugin ini dirancang untuk berjalan di atas **WordPress** dan terintegrasi denga
 
 ## 1. Latar Belakang
 
+Dokumen jurnal referensi bisa dicek di [RANCANGAN APLIKASI TANDANG.BAKTINEGARA.CO.ID SEBAGAI EKOSISTEM SHARING ECONOMY BERBASIS CROWD-SOURCED SERVICE DAN SOCIAL LISTENING DALAM MENDUKUNG PILAR SMART SOCIETY](https://docs.google.com/document/d/1hCTCF5V2sjM5lAlMcAzsEpRV8gc7Fh0i/edit?usp=sharing&ouid=107898240137596586165&rtpof=true&sd=true)
+
 tandang.baktinegara.co.id dirancang untuk menjawab dua permasalahan utama:
 
 1. Masyarakat membutuhkan layanan bantuan yang fleksibel, cepat, lokal, dan dapat dipercaya.
